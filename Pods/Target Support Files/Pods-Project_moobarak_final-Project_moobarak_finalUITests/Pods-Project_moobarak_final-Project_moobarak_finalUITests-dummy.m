@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Project_moobarak_final_Project_moobarak_finalUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Project_moobarak_final_Project_moobarak_finalUITests
+@end

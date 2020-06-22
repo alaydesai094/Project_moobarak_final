@@ -1,0 +1,6 @@
+framework module Pods_Project_moobarak_final_Project_moobarak_finalUITests {
+  umbrella header "Pods-Project_moobarak_final-Project_moobarak_finalUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
