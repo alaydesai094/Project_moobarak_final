@@ -10,9 +10,9 @@
 		36476AAF92FEA20E3CED46DF /* Pods_Project_moobarak_final_Project_moobarak_finalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50509593632173809D66952 /* Pods_Project_moobarak_final_Project_moobarak_finalUITests.framework */; };
 		3E0B2207CA870EA4698A9B2A /* Pods_Project_moobarak_finalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA7588C5B13DFBBF6C2BA75 /* Pods_Project_moobarak_finalTests.framework */; };
 		C684070A6A6C478829765F10 /* Pods_Project_moobarak_final.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69911AD55A82976CA8E84380 /* Pods_Project_moobarak_final.framework */; };
+		D90E9E7224A17ACC002861DD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90E9E7124A17ACC002861DD /* LoginViewController.swift */; };
 		D945FB2D24A1445900DBD8F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945FB2C24A1445900DBD8F1 /* AppDelegate.swift */; };
 		D945FB2F24A1445900DBD8F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945FB2E24A1445900DBD8F1 /* SceneDelegate.swift */; };
-		D945FB3124A1445900DBD8F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945FB3024A1445900DBD8F1 /* ViewController.swift */; };
 		D945FB3424A1445900DBD8F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D945FB3224A1445900DBD8F1 /* Main.storyboard */; };
 		D945FB3624A1445E00DBD8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D945FB3524A1445E00DBD8F1 /* Assets.xcassets */; };
 		D945FB3924A1445E00DBD8F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D945FB3724A1445E00DBD8F1 /* LaunchScreen.storyboard */; };
@@ -39,30 +39,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EF850D49CCF8A156B32FEEE /* Pods-Project_moobarak_final-Project_moobarak_finalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_moobarak_final-Project_moobarak_finalUITests.release.xcconfig"; path = "Target Support Files/Pods-Project_moobarak_final-Project_moobarak_finalUITests/Pods-Project_moobarak_final-Project_moobarak_finalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CD107022DD539804CBAAD42 /* Pods-Project_moobarak_finalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_moobarak_finalTests.debug.xcconfig"; path = "Target Support Files/Pods-Project_moobarak_finalTests/Pods-Project_moobarak_finalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		465B3CFA9FDEEADB1BF51953 /* Pods-Project_moobarak_finalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_moobarak_finalTests.release.xcconfig"; path = "Target Support Files/Pods-Project_moobarak_finalTests/Pods-Project_moobarak_finalTests.release.xcconfig"; sourceTree = "<group>"; };
 		4EA7588C5B13DFBBF6C2BA75 /* Pods_Project_moobarak_finalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project_moobarak_finalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5327AEEA647F43597018EF76 /* Pods-Project_moobarak_finalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_moobarak_finalTests.debug.xcconfig"; path = "Target Support Files/Pods-Project_moobarak_finalTests/Pods-Project_moobarak_finalTests.debug.xcconfig"; sourceTree = "<group>"; };
 		69911AD55A82976CA8E84380 /* Pods_Project_moobarak_final.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project_moobarak_final.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A72B5C81AF587E69FE8E40B4 /* Pods-Project_moobarak_final.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_moobarak_final.release.xcconfig"; path = "Target Support Files/Pods-Project_moobarak_final/Pods-Project_moobarak_final.release.xcconfig"; sourceTree = "<group>"; };
-		C1B09C56C7BAD225FAAECDE0 /* Pods-Project_moobarak_final-Project_moobarak_finalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_moobarak_final-Project_moobarak_finalUITests.debug.xcconfig"; path = "Target Support Files/Pods-Project_moobarak_final-Project_moobarak_finalUITests/Pods-Project_moobarak_final-Project_moobarak_finalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A9F50C86068EDDA2B797853 /* Pods-Project_moobarak_final-Project_moobarak_finalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_moobarak_final-Project_moobarak_finalUITests.release.xcconfig"; path = "Target Support Files/Pods-Project_moobarak_final-Project_moobarak_finalUITests/Pods-Project_moobarak_final-Project_moobarak_finalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5121454597F74E8138A31E6 /* Pods-Project_moobarak_final-Project_moobarak_finalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_moobarak_final-Project_moobarak_finalUITests.debug.xcconfig"; path = "Target Support Files/Pods-Project_moobarak_final-Project_moobarak_finalUITests/Pods-Project_moobarak_final-Project_moobarak_finalUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CCCB4A2B1BD8B9827870188A /* Pods-Project_moobarak_final.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_moobarak_final.debug.xcconfig"; path = "Target Support Files/Pods-Project_moobarak_final/Pods-Project_moobarak_final.debug.xcconfig"; sourceTree = "<group>"; };
 		D50509593632173809D66952 /* Pods_Project_moobarak_final_Project_moobarak_finalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project_moobarak_final_Project_moobarak_finalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D945FB2924A1445900DBD8F1 /* Project_moobarak_final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Project_moobarak_final.app; path = "/Users/alaydesai/Documents/Project_moobarak_final/build/Debug-iphoneos/Project_moobarak_final.app"; sourceTree = "<absolute>"; };
+		D90E9E6E24A148C3002861DD /* Project_moobarak_final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project_moobarak_final.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90E9E6F24A148C3002861DD /* Project_moobarak_finalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project_moobarak_finalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90E9E7024A148C3002861DD /* Project_moobarak_finalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project_moobarak_finalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90E9E7124A17ACC002861DD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D945FB2C24A1445900DBD8F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D945FB2E24A1445900DBD8F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D945FB3024A1445900DBD8F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D945FB3324A1445900DBD8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D945FB3524A1445E00DBD8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D945FB3824A1445E00DBD8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D945FB3A24A1445E00DBD8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D945FB3F24A1445E00DBD8F1 /* Project_moobarak_finalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Project_moobarak_finalTests.xctest; path = "/Users/alaydesai/Documents/Project_moobarak_final/build/Debug-iphoneos/Project_moobarak_finalTests.xctest"; sourceTree = "<absolute>"; };
 		D945FB4324A1445E00DBD8F1 /* Project_moobarak_finalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_moobarak_finalTests.swift; sourceTree = "<group>"; };
 		D945FB4524A1445E00DBD8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D945FB4A24A1445E00DBD8F1 /* Project_moobarak_finalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Project_moobarak_finalUITests.xctest; path = "/Users/alaydesai/Documents/Project_moobarak_final/build/Debug-iphoneos/Project_moobarak_finalUITests.xctest"; sourceTree = "<absolute>"; };
 		D945FB4E24A1445E00DBD8F1 /* Project_moobarak_finalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_moobarak_finalUITests.swift; sourceTree = "<group>"; };
 		D945FB5024A1445E00DBD8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D945FB5C24A1456100DBD8F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		F8D3759F1997D73310A5F2C2 /* Pods-Project_moobarak_finalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_moobarak_finalTests.release.xcconfig"; path = "Target Support Files/Pods-Project_moobarak_finalTests/Pods-Project_moobarak_finalTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA13F6FB3342A6583087B0E1 /* Pods-Project_moobarak_final.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_moobarak_final.release.xcconfig"; path = "Target Support Files/Pods-Project_moobarak_final/Pods-Project_moobarak_final.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,13 +107,12 @@
 			isa = PBXGroup;
 			children = (
 				CCCB4A2B1BD8B9827870188A /* Pods-Project_moobarak_final.debug.xcconfig */,
-				A72B5C81AF587E69FE8E40B4 /* Pods-Project_moobarak_final.release.xcconfig */,
-				C1B09C56C7BAD225FAAECDE0 /* Pods-Project_moobarak_final-Project_moobarak_finalUITests.debug.xcconfig */,
-				0EF850D49CCF8A156B32FEEE /* Pods-Project_moobarak_final-Project_moobarak_finalUITests.release.xcconfig */,
-				5327AEEA647F43597018EF76 /* Pods-Project_moobarak_finalTests.debug.xcconfig */,
-				F8D3759F1997D73310A5F2C2 /* Pods-Project_moobarak_finalTests.release.xcconfig */,
+				FA13F6FB3342A6583087B0E1 /* Pods-Project_moobarak_final.release.xcconfig */,
+				C5121454597F74E8138A31E6 /* Pods-Project_moobarak_final-Project_moobarak_finalUITests.debug.xcconfig */,
+				6A9F50C86068EDDA2B797853 /* Pods-Project_moobarak_final-Project_moobarak_finalUITests.release.xcconfig */,
+				2CD107022DD539804CBAAD42 /* Pods-Project_moobarak_finalTests.debug.xcconfig */,
+				465B3CFA9FDEEADB1BF51953 /* Pods-Project_moobarak_finalTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -125,6 +124,9 @@
 				D945FB4D24A1445E00DBD8F1 /* Project_moobarak_finalUITests */,
 				25052BE221918D50212B9D9B /* Pods */,
 				0FDE74C5164CE985DEA55B97 /* Frameworks */,
+				D90E9E6E24A148C3002861DD /* Project_moobarak_final.app */,
+				D90E9E6F24A148C3002861DD /* Project_moobarak_finalTests.xctest */,
+				D90E9E7024A148C3002861DD /* Project_moobarak_finalUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,12 +135,12 @@
 			children = (
 				D945FB2C24A1445900DBD8F1 /* AppDelegate.swift */,
 				D945FB2E24A1445900DBD8F1 /* SceneDelegate.swift */,
-				D945FB3024A1445900DBD8F1 /* ViewController.swift */,
 				D945FB3224A1445900DBD8F1 /* Main.storyboard */,
 				D945FB3524A1445E00DBD8F1 /* Assets.xcassets */,
 				D945FB3724A1445E00DBD8F1 /* LaunchScreen.storyboard */,
 				D945FB3A24A1445E00DBD8F1 /* Info.plist */,
 				D945FB5C24A1456100DBD8F1 /* GoogleService-Info.plist */,
+				D90E9E7124A17ACC002861DD /* LoginViewController.swift */,
 			);
 			path = Project_moobarak_final;
 			sourceTree = "<group>";
@@ -173,7 +175,7 @@
 				D945FB2624A1445900DBD8F1 /* Frameworks */,
 				D945FB2724A1445900DBD8F1 /* Resources */,
 				C124D4462490AAE34C07A23E /* [CP] Embed Pods Frameworks */,
-				597030E538E2DBDCC651B838 /* [CP] Copy Pods Resources */,
+				E8CF641F9AF9787E841DCDF7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,7 +183,7 @@
 			);
 			name = Project_moobarak_final;
 			productName = Project_moobarak_final;
-			productReference = D945FB2924A1445900DBD8F1 /* Project_moobarak_final.app */;
+			productReference = D90E9E6E24A148C3002861DD /* Project_moobarak_final.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D945FB3E24A1445E00DBD8F1 /* Project_moobarak_finalTests */ = {
@@ -200,7 +202,7 @@
 			);
 			name = Project_moobarak_finalTests;
 			productName = Project_moobarak_finalTests;
-			productReference = D945FB3F24A1445E00DBD8F1 /* Project_moobarak_finalTests.xctest */;
+			productReference = D90E9E6F24A148C3002861DD /* Project_moobarak_finalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		D945FB4924A1445E00DBD8F1 /* Project_moobarak_finalUITests */ = {
@@ -212,7 +214,7 @@
 				D945FB4724A1445E00DBD8F1 /* Frameworks */,
 				D945FB4824A1445E00DBD8F1 /* Resources */,
 				A7BD85470B47A0841D8159B4 /* [CP] Embed Pods Frameworks */,
-				4922772EE41DF55F46E1B2A7 /* [CP] Copy Pods Resources */,
+				AC381D55197E1C83FE967622 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,7 +223,7 @@
 			);
 			name = Project_moobarak_finalUITests;
 			productName = Project_moobarak_finalUITests;
-			productReference = D945FB4A24A1445E00DBD8F1 /* Project_moobarak_finalUITests.xctest */;
+			productReference = D90E9E7024A148C3002861DD /* Project_moobarak_finalUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -318,40 +320,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4922772EE41DF55F46E1B2A7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Project_moobarak_final-Project_moobarak_finalUITests/Pods-Project_moobarak_final-Project_moobarak_finalUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Project_moobarak_final-Project_moobarak_finalUITests/Pods-Project_moobarak_final-Project_moobarak_finalUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Project_moobarak_final-Project_moobarak_finalUITests/Pods-Project_moobarak_final-Project_moobarak_finalUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		597030E538E2DBDCC651B838 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Project_moobarak_final/Pods-Project_moobarak_final-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Project_moobarak_final/Pods-Project_moobarak_final-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Project_moobarak_final/Pods-Project_moobarak_final-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A7BD85470B47A0841D8159B4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,6 +335,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Project_moobarak_final-Project_moobarak_finalUITests/Pods-Project_moobarak_final-Project_moobarak_finalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC381D55197E1C83FE967622 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Project_moobarak_final-Project_moobarak_finalUITests/Pods-Project_moobarak_final-Project_moobarak_finalUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Project_moobarak_final-Project_moobarak_finalUITests/Pods-Project_moobarak_final-Project_moobarak_finalUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Project_moobarak_final-Project_moobarak_finalUITests/Pods-Project_moobarak_final-Project_moobarak_finalUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C124D4462490AAE34C07A23E /* [CP] Embed Pods Frameworks */ = {
@@ -408,6 +393,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E8CF641F9AF9787E841DCDF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Project_moobarak_final/Pods-Project_moobarak_final-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Project_moobarak_final/Pods-Project_moobarak_final-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Project_moobarak_final/Pods-Project_moobarak_final-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F7F30D14DE17FEC499AD2F14 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -437,7 +439,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D945FB3124A1445900DBD8F1 /* ViewController.swift in Sources */,
+				D90E9E7224A17ACC002861DD /* LoginViewController.swift in Sources */,
 				D945FB2D24A1445900DBD8F1 /* AppDelegate.swift in Sources */,
 				D945FB2F24A1445900DBD8F1 /* SceneDelegate.swift in Sources */,
 			);
@@ -629,7 +631,7 @@
 		};
 		D945FB5524A1445E00DBD8F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A72B5C81AF587E69FE8E40B4 /* Pods-Project_moobarak_final.release.xcconfig */;
+			baseConfigurationReference = FA13F6FB3342A6583087B0E1 /* Pods-Project_moobarak_final.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -648,7 +650,7 @@
 		};
 		D945FB5724A1445E00DBD8F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5327AEEA647F43597018EF76 /* Pods-Project_moobarak_finalTests.debug.xcconfig */;
+			baseConfigurationReference = 2CD107022DD539804CBAAD42 /* Pods-Project_moobarak_finalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -671,7 +673,7 @@
 		};
 		D945FB5824A1445E00DBD8F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8D3759F1997D73310A5F2C2 /* Pods-Project_moobarak_finalTests.release.xcconfig */;
+			baseConfigurationReference = 465B3CFA9FDEEADB1BF51953 /* Pods-Project_moobarak_finalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -694,7 +696,7 @@
 		};
 		D945FB5A24A1445E00DBD8F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1B09C56C7BAD225FAAECDE0 /* Pods-Project_moobarak_final-Project_moobarak_finalUITests.debug.xcconfig */;
+			baseConfigurationReference = C5121454597F74E8138A31E6 /* Pods-Project_moobarak_final-Project_moobarak_finalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -715,7 +717,7 @@
 		};
 		D945FB5B24A1445E00DBD8F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EF850D49CCF8A156B32FEEE /* Pods-Project_moobarak_final-Project_moobarak_finalUITests.release.xcconfig */;
+			baseConfigurationReference = 6A9F50C86068EDDA2B797853 /* Pods-Project_moobarak_final-Project_moobarak_finalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

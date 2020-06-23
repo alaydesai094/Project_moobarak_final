@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LoginViewController.swift
 //  Project_moobarak_final
 //
 //  Created by Alay Desai on 2020-06-22.
@@ -10,15 +10,18 @@ import UIKit
 import FirebaseUI
 import FirebaseAuth
 
-
-class ViewController: UIViewController, FUIAuthDelegate{
-    
+class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+    
+             
+             
+    @IBAction func SignInButton(_ sender: Any) {
         
-        
-        print("Login started")
+        print("login pressed")
         
         // Create the default Auth UI
         let authUI = FUIAuth.defaultAuthUI()
@@ -36,40 +39,31 @@ class ViewController: UIViewController, FUIAuthDelegate{
         // get the authviewController and present it
         let authViewController = authUI!.authViewController()
         present(authViewController, animated:true, completion: nil)
-        // Do any additional setup after loading the view.
+
+
     }
- 
-        
-        
-    @IBAction func nextButton(_ sender: Any) {
-        performSegue(withIdentifier: "goNext", sender:self)
-    }
-    
     
     
     
 
-    
 }
 
-//extension ViewController: FUIAuthDelegate{
-//
-//
-//        func authUI(_ authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, error: Error?) {
-//
-//            //check if there is an error
-//
-//            if error != nil {
-//                //log the error
-//                return
-//            }
-//
-//            print(authDataResult?.user.uid)
-//             performSegue(withIdentifier: "goHome", sender: self)
-//
-//        }
-//
-//}
+extension LoginViewController: FUIAuthDelegate {
 
- 
+
+        func authUI(_ authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, error: Error?) {
+
+            //check if there is an error
+
+            if error != nil {
+                //log the error
+                return
+            }
+
+            print(authDataResult?.user.uid)
+             performSegue(withIdentifier: "goHome", sender: self)
+
+        }
+
+}
 
